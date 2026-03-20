@@ -1,0 +1,120 @@
+@import '@shoelace-style/shoelace/dist/themes/dark.css';
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a !important;
+  min-height: 100vh;
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #0f172a !important;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.title-area h1 {
+  margin: 0;
+  font-size: 2rem;
+  background: linear-gradient(90deg, #4ade80, #3b82f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title-area p {
+  margin: 0;
+  color: #94a3b8 !important;
+}
+
+.search-section {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.score-card {
+  text-align: center;
+  padding: 2rem;
+  background-color: #1e293b !important;
+  border-radius: 8px;
+  border: 1px solid #334155 !important;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+}
+
+.score-value {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.score-high { color: #22c55e !important; }
+.score-mid { color: #eab308 !important; }
+.score-low { color: #ef4444 !important; }
+
+.factors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+sl-card {
+  --sl-panel-background-color: #1e293b !important;
+  --sl-panel-border-color: #334155 !important;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+sl-card::part(base) {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+  color: #f8fafc !important;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+sl-card::part(body) {
+  flex: 1;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #60a5fa !important;
+}
+
+ul {
+  color: #cbd5e1 !important;
+}

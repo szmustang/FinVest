@@ -1,0 +1,20 @@
+INFO:     Started server process [36611]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50937 - "GET /api/score/600036 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50954 - "GET /api/score/000001 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51096 - "GET /api/score/300498 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51125 - "GET /api/score/%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51148 - "GET /api/score/%E5%B9%B3%E5%AE%89%E9%93%B6%E8%A1%8C HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54550 - "GET /api/v1/screener/candidates HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54551 - "GET /api/v1/data/diagnostics HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54552 - "GET /api/v1/data/source HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:54626 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54627 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60659 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60918 - "GET /api/score/000001 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [36611]
